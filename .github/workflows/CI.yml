@@ -2,6 +2,8 @@ name: Publish to GitHub Pages
 
 on: 
   gollum:
+    branches:
+     - master
   push:
     branches:
       - deploy
