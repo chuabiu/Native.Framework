@@ -3,7 +3,7 @@ name: Publish to GitHub Pages
 on: 
   gollum:
     branches:
-     - master
+      - master
   push:
     branches:
       - deploy
