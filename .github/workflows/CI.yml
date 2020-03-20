@@ -1,9 +1,7 @@
 name: Publish to GitHub Pages
 
-on: 
-  gollum:
-    branches:
-      - master
+on: |
+  gollum
   push:
     branches:
       - deploy
