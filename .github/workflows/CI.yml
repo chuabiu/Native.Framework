@@ -1,6 +1,6 @@
 name: Publish to GitHub Pages
 
-on: |
+on: 
   [gollum,push]
 jobs:
   publish:
